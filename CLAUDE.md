@@ -72,3 +72,42 @@ UI/UX is critical to this project's success. When building features:
 - Minimize friction in the recording workflow
 - Include quick playback, one-click re-recording, and progress indicators
 - Design should feel motivating and satisfying to use for long sessions
+
+## Working with the Changelog
+
+This project uses a `CHANGELOG.md` file to track notable changes. The changelog serves as a history of the project and helps all contributors, including AI assistants, understand the evolution of the codebase.
+
+### Your Role as an AI Assistant
+
+When you make changes to the codebase, you are expected to update the changelog.
+
+**1. Read the Changelog:** Before making any changes, familiarize yourself with the recent changes listed in `CHANGELOG.md`. This will help you understand the current state of the project and avoid re-introducing old bugs.
+
+**2. Update the Changelog:** After you have successfully implemented a new feature, fixed a bug, or made any other notable change, you must add an entry to the `CHANGELOG.md` file under the `[Unreleased]` section. If an `[Unreleased]` section does not exist, create it at the top of the file.
+
+**Example Changelog Entry:**
+
+```markdown
+## [Unreleased]
+
+### Added
+- A new feature.
+
+### Changed
+- An existing feature.
+
+### Fixed
+- A bug.
+```
+
+**3. Use Conventional Commits:** While not strictly enforced, we encourage the use of [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/). This practice helps in generating changelog entries automatically in the future.
+
+### Example Prompts
+
+Here are some example prompts that you can use to interact with the changelog:
+
+*   **"After implementing the feature, please add an appropriate entry to the `CHANGELOG.md` file."**
+*   **"Please review the `CHANGELOG.md` file and summarize the changes made in the last release."**
+*   **"Before you start, please check the `CHANGELOG.md` to see if a similar feature has been implemented before."**
+
+By following these guidelines, you will help us maintain a clear and accurate history of the project, which is invaluable for all contributors.
